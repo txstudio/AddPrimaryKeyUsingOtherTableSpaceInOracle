@@ -42,7 +42,7 @@ ALTER TABLE SYSTEM.STOCKS
 */
 
 -- -----------------------------------------
--- case 2 : 先建立唯一索引後再建立主索引鍵 (primary-key)
+-- case 3 : 先建立唯一索引後再建立主索引鍵 (primary-key)
 -- -----------------------------------------
 CREATE INDEX "SYSTEM".STOCK_SCHEMA_INDEX
 	ON SYSTEM.STOCKS (SCHEMA ASC)
